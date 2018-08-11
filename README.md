@@ -1,5 +1,5 @@
 # gzjianguang
-抓取某个网站html、css、js等文件保存到本地（暂时未实现文件排序）
+抓取某个网站html、css、js等文件保存到本地（暂时未实现文件排序）,其他网站在此类上修改可以抓取
 ## 环境
 python3，windows（理论上linux也能使用）
 ## 使用前提
@@ -13,3 +13,9 @@ pip3 install bs4(linux)
 需要在main函数更改文件保存路径
 
 basedir = r'E:\pythonCode\gzjianguang'
+
+## 运行脚本
+
+py -3 gzjianguang.py(windows)
+
+python3 gzjianguang.py(linux)
