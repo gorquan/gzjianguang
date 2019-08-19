@@ -1,15 +1,4 @@
-# author:gorquan
-# date：2018-8-11
-from urllib import request
-from bs4 import BeautifulSoup as bs
-import time
-import os
-import re
-'''
 
-    用来爬取网站网页
-    实现功能：url深度抓取，保存每个页面的css、html、js等文件
-'''
 
 
 # 深度爬取当前页面子网站子网站
